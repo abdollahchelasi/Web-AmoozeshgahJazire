@@ -48,7 +48,7 @@ height: 300px;
   left: 0;
   position:absolute;
   background-blend-mode: darken;
-  background: rgba(0, 0, 0, 0.7) url('https://www.wikisemnan.com/wp-content/uploads/amoo8-b1-1.jpg');
+  background: rgba(0, 0, 0, 0.7) repeat url('./image/passb.jpg');
   
   
 }
@@ -61,7 +61,7 @@ height: 300px;
 .text{
   text-align: center;
   position:relative;
-  margin-top: 70px;
+  margin-top: 90px;
   font-size: 2em;
   color: rgb(250, 250, 250);
   font-weight: bold;
