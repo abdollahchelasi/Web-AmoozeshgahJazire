@@ -101,6 +101,8 @@ height: 300px;
   
 }
 
+/* ImageMorabian */
+
 .morabi{
   background-color: #ffffff;
   color: rgb(255, 255, 255);
@@ -124,8 +126,6 @@ height: 300px;
   text-align: center;
   color: rgb(19, 18, 18);
   margin-bottom: 33px;
-  
-  
   
 }
 .morabi img:hover{
