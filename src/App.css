@@ -1,0 +1,141 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lalezar', cursive;
+  
+}
+
+
+.cont{ 
+height: 300px;
+
+}
+
+.logoname{
+  border: solid 1px rgb(78, 78, 78);
+  box-shadow: rgb(10, 10, 10) 4px 4px 4px ;
+  padding: 7px;
+  background-color: #202020;
+  border-radius: 5px;
+  
+}
+.logoname:hover{
+  border: solid rgb(252, 255, 250);
+}
+
+.toggle{
+  margin-top: 15px;
+}
+
+.titlesite{
+  background-color: rgb(44, 49, 47);
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 9px;
+  border-radius: 11px;
+  border: solid rgb(73, 82, 65);
+  box-shadow: rgb(2, 2, 2) 2px 2px 4px;
+}
+
+.titlesite:hover{
+  border: solid rgb(108, 224, 7);
+}
+
+.imgpass{
+  width: 100%;
+  height: 300px;
+  left: 0;
+  position:absolute;
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0.7) url('https://www.wikisemnan.com/wp-content/uploads/amoo8-b1-1.jpg');
+  
+  
+}
+
+
+
+
+
+
+.text{
+  text-align: center;
+  position:relative;
+  margin-top: 70px;
+  font-size: 2em;
+  color: rgb(250, 250, 250);
+  font-weight: bold;
+  text-shadow: rgb(187, 214, 210) 1px 1px 2px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.link{
+  border-radius: 11;
+  text-align: center;
+  align-items: center;
+  
+}
+
+
+.contsafhe{
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  border-radius: 11px;
+  margin-top: 9px;
+  box-shadow: rgb(0, 0, 0) 3px 6px 9px;
+  
+}
+.contsafhe:hover{
+  border: solid rgb(41, 43, 43) 2px;
+  background-color: rgb(196, 199, 43);
+}
+.contsafhe p{
+  color: #202020;
+}
+
+.madarek h5{
+  margin-top: 5px;
+  color: rgb(107, 104, 104);
+  text-align: center;
+  
+}
+
+.morabi{
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  border-radius: 11px;
+  margin-top: 9px;
+  color:rgb(31, 30, 30);
+  padding-right: 15px;
+  box-shadow: rgb(0, 0, 0) 3px 6px 9px;
+  text-align: center;
+  padding-top: 22px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  
+}
+
+.morabi:hover{
+  
+  border: solid rgb(41, 43, 43) 2px;
+}
+.morabi h5{
+  text-align: center;
+  color: rgb(19, 18, 18);
+  margin-bottom: 33px;
+  
+  
+}
+.morabi img:hover{
+  border: #202020 solid 2px;
+  box-shadow: #202020 6px 6px 11px;
+}
+
+.morabi img{
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 3px;
+  box-shadow: #202020 3px 3px 5px;
+}
