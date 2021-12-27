@@ -54,8 +54,15 @@ function Navb() {
                       .start()
                   }}
                 />
+
+                <div className='video'></div>
+
               </div>
+
+              
+
             </Col>
+
 
           </Row>
         </Container>

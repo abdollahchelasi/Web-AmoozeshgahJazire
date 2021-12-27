@@ -27,6 +27,9 @@ height: 300px;
 .toggle{
   margin-top: 15px;
 }
+.toggle:hover{
+  background-color: rgb(71, 150, 78);;
+}
 
 .titlesite{
   background-color: rgb(44, 49, 47);
@@ -40,11 +43,13 @@ height: 300px;
 
 .titlesite:hover{
   border: solid rgb(108, 224, 7);
+  background-color: rgb(11, 49, 2);
 }
 
 .imgpass{
   width: 100%;
   height: 300px;
+  
   left: 0;
   position:absolute;
   background-blend-mode: darken;
@@ -70,6 +75,10 @@ height: 300px;
   
 }
 
+.video{
+  background-color: #202020;
+}
+
 .link{
   border-radius: 11;
   text-align: center;
@@ -88,7 +97,7 @@ height: 300px;
 }
 .contsafhe:hover{
   border: solid rgb(41, 43, 43) 2px;
-  background-color: rgb(196, 199, 43);
+  background-color: rgb(207, 207, 187);
 }
 .contsafhe p{
   color: #202020;
@@ -119,7 +128,7 @@ height: 300px;
 }
 
 .morabi:hover{
-  
+  background-color: rgb(207, 207, 187);
   border: solid rgb(41, 43, 43) 2px;
 }
 .morabi h5{
