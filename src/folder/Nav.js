@@ -3,6 +3,8 @@ import { Navbar, Container, Nav, NavDropdown, Col, Row, NavbarBrand, Form } from
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Typewriter from 'typewriter-effect'
 import icon from '../image/icon.png'
+import ReactPlayer from 'react-player'
+import video from '../video/jazire.mp4'
 
 function Navb() {
   return (
@@ -16,7 +18,6 @@ function Navb() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggle' />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" >
-              <Nav.Link href='#' className='titlesite'>ویدیو ها</Nav.Link>
               <Nav.Link href="#madarek" className='titlesite'>مدارک</Nav.Link>
               <Nav.Link href="#morabi" className='titlesite'>مربیان</Nav.Link>
               <Nav.Link href='#' className='titlesite'>ارتباط با ما</Nav.Link>
@@ -55,7 +56,14 @@ function Navb() {
                   }}
                 />
 
-                <div className='video'></div>
+                <div className='video'>
+
+                
+                <ReactPlayer style={{padding:'7px', borderRadius:'8px',border:'solid 1px rgb(243, 245, 242)',boxShadow:'#ffffff 2px 2px 8px'}} width={'100%'} height={150} url={video} controls/>
+
+                </div>
+
+                
 
               </div>
 
@@ -133,7 +141,7 @@ function Navb() {
 
 
 
-
+                  {/* Morabian */}
 
 
         <Col className='morabi' id='morabi'><div>
@@ -148,6 +156,21 @@ function Navb() {
             <Col sm={6} md={3}>a</Col>
           </Row>
         </div></Col>
+
+
+
+                    {/* CALL */}
+
+
+        
+          <Row className='call'>
+            <Col sm={4}>HI</Col>
+            <Col sm={4}>HI</Col>
+            <Col sm={4} >HI</Col>
+          </Row>
+        
+        
+
       </Container>
     </>
 
