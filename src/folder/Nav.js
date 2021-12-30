@@ -20,7 +20,7 @@ function Navb() {
             <Nav className="me-auto" >
               <Nav.Link href="#madarek" className='titlesite'>مدارک</Nav.Link>
               <Nav.Link href="#morabi" className='titlesite'>مربیان</Nav.Link>
-              <Nav.Link href='#' className='titlesite'>ارتباط با ما</Nav.Link>
+              <Nav.Link href='#call' className='titlesite'>ارتباط با ما</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>
@@ -163,8 +163,8 @@ function Navb() {
 
 
         
-          <Row className='call'>
-            <Col sm={4}>HI</Col>
+          <Row className='call' id='call'>
+            <Col className='call1' sm={4}>HI</Col>
             <Col sm={4}>HI</Col>
             <Col sm={4} >HI</Col>
           </Row>
