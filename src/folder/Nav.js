@@ -45,9 +45,9 @@ function Navb() {
 
                     typewriter
                       .pauseFor(1000)
-                      .typeString('<span style="color: #27ae60;">آموزشگاه رانندگی جزیره</span> با چند سال سابقه کار')
+                      .typeString('<span style="color: #27ae60;"> آموزشگاه رانندگی جزیره</span> اولین ومجهزترین آموزشگاه در جزیره قشم')
                       .pauseFor(2000)
-                      .deleteChars(20)
+                      .deleteChars(37)
                       .typeString('و بهترین مربیان آموزشگاه')
                       .pauseFor(2000)
                       .deleteChars(24)
@@ -149,7 +149,8 @@ function Navb() {
           <Row className='row'>
             <Col sm={6} md={3}><div>
               <img src='' />
-              <p>Ali</p>
+              <p>مدیریت آموزشگاه</p>
+              <h4>هوشیار</h4>
             </div></Col>
             <Col sm={6} md={3}>a</Col>
             <Col sm={6} md={3}>a</Col>
@@ -164,7 +165,12 @@ function Navb() {
 
         
           <Row className='call' id='call'>
-            <Col className='call1' sm={4}>HI</Col>
+            <Col sm={4} className='call1'>
+              <div>
+                <h3>ارتباط با ما</h3>
+                <p>insta</p>
+              </div>
+            </Col>
             <Col sm={4}>HI</Col>
             <Col sm={4} >HI</Col>
           </Row>
