@@ -162,10 +162,50 @@ height: 300px;
 
 .call{
   background-color: rgb(22, 22, 22);
-  
+  padding-top: 5px;
 }
 
 .call1{
-  background-color: aqua;
   text-align: center;
+  color: #ffffff;
+}
+
+.mp{
+  color: rgb(1, 78, 129);
+  text-shadow: rgb(250, 4, 4) 1px 1px 3px;
+}
+
+.aboutme{
+  text-align: center;
+  color: #ffffff;
+  background-color: rgb(41, 61, 21);
+  padding-top: 7px;
+  text-align: center;
+}
+
+.c1{
+  float: left;
+  color: rgb(3, 151, 102);
+  border-radius: 4px;
+  box-shadow: azure 1px 1px 6px;
+}
+
+.logo:hover{
+  box-shadow: brown 4px 4px 9px;
+  border: rgb(255, 255, 255) solid 1px;
+  border-radius: 50%;
+}
+
+.abdollah{
+text-decoration: none;
+background-color: chartreuse;
+border-radius: 3px;
+padding: 2px;
+color: #202020;
+}
+
+.abdollah:hover{
+  box-shadow: #7ec50d 1px 1px 6px;
+  border: #000000 solid 1px;
+  color: #000000;
 }

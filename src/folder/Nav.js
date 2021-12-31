@@ -5,6 +5,8 @@ import Typewriter from 'typewriter-effect'
 import icon from '../image/icon.png'
 import ReactPlayer from 'react-player'
 import video from '../video/jazire.mp4'
+import img from '../image/hooshyar.jpg'
+import imga from '../image/logo1.png'
 
 function Navb() {
   return (
@@ -82,6 +84,8 @@ function Navb() {
 
       <Container fluid >
 
+
+
         <Container fluid className='contsafhe'>
 
           <Row>
@@ -102,7 +106,7 @@ function Navb() {
               <p>&#x1F538; اصل شناسنامه و در صورت داشتن توضیحات ( شناسنامه قدیم ) یک برگ کپی از صفحه توضیحات (شناسنامه های جدید صفحه اول و دوم )
               </p>
               <p>&#x1F538; اصل و کپی کارت ملی ، در صورت تعویض رسید پستی آن نیاز است.</p>
-              <p>&#x1F538; ۹ قطعه عکس ۴*۳ تمام رخ رنگی جدید با زمینه سفید و بالباس تیره ، بدون عینک ، کلاه و کراوات و خانمها با حجاب اسلامی و مغایر با عکس شناسنامه
+              <p>&#x1F538; ۶ قطعه عکس 3/4 رنگی پشت زمینه سفید
               </p>
               <p>&#x1F538; تعیین گروه خونی از سوی یکی از آزمایشگاه ها یا مراکز درمانی و قانونی معتبر
               </p>
@@ -122,7 +126,7 @@ function Navb() {
 
 
               <p> &#x1F534;   6 - (صدور کاردکس ) مدارک مورد نیاز :  </p>
-              <p>&#x1F538;  متقاضی گواهینامه می تواند با همراه داشتن کامل پرونده ( اصل مدرک شناسایی ، کارت ملی و کارت پایان خدمت و معافیت ،گواهی اشتغال به تحصیل )جهت صدور کاردکس و شرکت در آزمون آیین نامه و عملی شهر با پرداخت وجوه مصوب راهنمایی و رانندگی در روزهای آزمون اقدام نمائید.  </p>
+              <p>&#x1F538;  متقاضی گواهینامه می تواند با همراه داشتن کامل پرونده ( اصل مدرک شناسایی ، کارت ملی  )جهت صدور کاردکس و شرکت در آزمون آیین نامه و عملی شهر با پرداخت وجوه مصوب راهنمایی و رانندگی در روزهای آزمون اقدام نمائید.  </p>
 
 
               <p> &#x1F534;   7 - شرکت در آزمون آیین نامه  </p>
@@ -148,9 +152,9 @@ function Navb() {
           <h5>مربیان آموزشگاه</h5>
           <Row className='row'>
             <Col sm={6} md={3}><div>
-              <img src='' />
-              <p>مدیریت آموزشگاه</p>
-              <h4>هوشیار</h4>
+              <img src={img} />
+              <p style={{color:'red'}}>مدیریت آموزشگاه <p className='mp'>هوشیار</p></p>
+              
             </div></Col>
             <Col sm={6} md={3}>a</Col>
             <Col sm={6} md={3}>a</Col>
@@ -165,14 +169,34 @@ function Navb() {
 
         
           <Row className='call' id='call'>
-            <Col sm={4} className='call1'>
-              <div>
+
+            <Col sm={6} className='call1'>
+              
                 <h3>ارتباط با ما</h3>
-                <p>insta</p>
+                <p >شماره تلفن : <p className='c1'>987635248790+</p></p>
+                <a href='https://www.instagram.com/amoozeshgah_jazire/' target={'#'} ><img className='logo' src={imga} width={30}/></a>
+
+                 <hr/>
+              
+            </Col>
+
+            <Col sm={6} className='call1'>
+            <div>
+                <h3>آدرس آموزشگاه</h3>
+                <p className='c1'>قشم، میدان حافظ، بعد از راهنمایی رانندگی، ورودی دوم شهرک بوستان</p>
+
+                
               </div>
             </Col>
-            <Col sm={4}>HI</Col>
-            <Col sm={4} >HI</Col>
+
+
+            <Col className='aboutme'>
+            <div>
+              <p className='tabot'> طراح و برنامه نویس سایت : <a className='abdollah' href='http://abdollahchelasi.ir/' target={'#'}>عبدالله چلاسی</a></p>    
+                      
+            </div>
+            </Col>
+            
           </Row>
         
         
