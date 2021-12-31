@@ -7,6 +7,8 @@ import ReactPlayer from 'react-player'
 import video from '../video/jazire.mp4'
 import img from '../image/hooshyar.jpg'
 import imga from '../image/logo1.png'
+import imgyaser from '../image/yaserahmadi.jpg'
+import yavazi from '../image/yavazi.jpg'
 
 function Navb() {
   return (
@@ -85,6 +87,7 @@ function Navb() {
       <Container fluid >
 
 
+                  {/* madarek */}
 
         <Container fluid className='contsafhe'>
 
@@ -149,15 +152,41 @@ function Navb() {
 
 
         <Col className='morabi' id='morabi'><div>
-          <h5>مربیان آموزشگاه</h5>
+          
           <Row className='row'>
-            <Col sm={6} md={3}><div>
+            <Col sm={12} md={12}><div className='hoosh'>
               <img src={img} />
               <p style={{color:'red'}}>مدیریت آموزشگاه <p className='mp'>هوشیار</p></p>
               
             </div></Col>
-            <Col sm={6} md={3}>a</Col>
-            <Col sm={6} md={3}>a</Col>
+
+
+            <h5><hr/>مربیان آموزشگاه</h5>
+
+
+            <Col sm={6} md={3}>
+            <div>
+              <img src={imgyaser} />
+               <p className='mp'>یاسر احمدی</p>
+
+              
+            </div>
+              
+            </Col>
+
+
+
+            <Col sm={6} md={3}>
+            <div>
+              <img src={yavazi} />
+               <p className='mp'>محمد یواضی</p>
+
+              
+            </div>
+            </Col>
+
+
+
             <Col sm={6} md={3}>a</Col>
           </Row>
         </div></Col>
