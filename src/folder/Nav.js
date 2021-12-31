@@ -9,7 +9,7 @@ import img from '../image/hooshyar.jpg'
 import imga from '../image/logo1.png'
 import imgyaser from '../image/yaserahmadi.jpg'
 import yavazi from '../image/yavazi.jpg'
-
+import hasan from '../image/hasanpakdari.jpg'
 function Navb() {
   return (
     <>
@@ -94,7 +94,7 @@ function Navb() {
           <Row>
             <Col sm={12} className='madarek' id='madarek'><div>
               <h5> <b>&#x26D4; &#x26D4;</b></h5>
-              <p> &#x1F538;جهت ثبت نام و سریع کلاس ها با کادر مجرب بدون پایان خدمت , اول رانندگی یاد بگیر بعد رانندگی کنید .</p>
+              <p> &#x1F538;جهت ثبت نام و سریع کلاس ها با کادر مجرب بدون پایان خدمت , اول رانندگی یاد بگیر بعد رانندگی کنید </p>
               <p>&#x1F538; اول مقایسه کن بعد برو ثبت نام کن این آموزشگاه رانندگی جزیره هست در قلب جزیره می درخشد</p>
               <p>&#x1F538; اگه میخوای گواهینامه موتور و ماشین بگیری بیا آموزشگاه رانندگی جزیره قشم</p>
 
@@ -151,7 +151,16 @@ function Navb() {
 
 
 
-            <Col sm={6} md={3}>a</Col>
+            <Col sm={6} md={3}>
+            <div>
+              <img src={hasan} />
+               <p className='mp'>حسن پاکداری</p>
+
+              
+            </div>
+            </Col>
+
+
           </Row>
         </div></Col>
 
