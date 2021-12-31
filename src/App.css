@@ -178,7 +178,7 @@ height: 300px;
 .aboutme{
   text-align: center;
   color: #ffffff;
-  background-color: rgb(41, 61, 21);
+  background-color: rgb(43, 43, 41);
   padding-top: 7px;
   text-align: center;
 }
@@ -189,6 +189,14 @@ height: 300px;
   border-radius: 4px;
   box-shadow: azure 1px 1px 6px;
 }
+
+.cc1{
+  padding-left: 6px;
+  text-align: center;
+  float: left;
+  border-radius: 3px;
+}
+
 
 .logo:hover{
   box-shadow: brown 4px 4px 9px;

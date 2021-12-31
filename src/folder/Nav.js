@@ -202,10 +202,10 @@ function Navb() {
             <Col sm={6} className='call1'>
               
                 <h3>ارتباط با ما</h3>
-                <p >شماره تلفن : <p className='c1'>987635248790+</p></p>
                 <a href='https://www.instagram.com/amoozeshgah_jazire/' target={'#'} ><img className='logo' src={imga} width={30}/></a>
+                <p  className='cc1'>شماره تلفن : <p className='c1'>987635248790+</p></p>
 
-                 <hr/>
+                
               
             </Col>
 
