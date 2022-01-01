@@ -9,7 +9,7 @@ import img from '../image/hooshyar.jpg'
 import imga from '../image/logo1.png'
 import imgyaser from '../image/yaserahmadi.jpg'
 import yavazi from '../image/yavazi.jpg'
-import hasan from '../image/hasanpakdari.jpg'
+import hasan from '../image/hasan.jpg'
 function Navb() {
   return (
     <>
@@ -195,7 +195,7 @@ function Navb() {
 
             <Col className='aboutme'>
             <div>
-              <p className='tabot'> طراح و برنامه نویس سایت : <a className='abdollah' href='http://abdollahchelasi.ir/' target={'#'}>عبدالله چلاسی</a></p>    
+              <p className='tabot'> طراح و برنامه نویس وبسایت : <a className='abdollah' href='http://abdollahchelasi.ir/' target={'#'}>عبدالله چلاسی</a></p>    
                       
             </div>
             </Col>
