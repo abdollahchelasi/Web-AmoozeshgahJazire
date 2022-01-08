@@ -177,9 +177,7 @@ function Navb() {
                 <h3>ارتباط با ما</h3>
                 <p  className='cc1'>شماره تلفن آموزشگاه  : <p className='c1'>987635248790+</p></p>
                 <p  className='cc1'>هوشیار  : <p className='c1'>09107072337</p></p>
-                <a href='https://www.instagram.com/amoozeshgah_jazire/' target={'#'} ><img className='logo' src={imga} width={30}/></a>
 
-                <hr/>
               
             </Col>
 
