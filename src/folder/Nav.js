@@ -143,7 +143,7 @@ function Navb() {
             <Col sm={6} md={3}>
             <div>
               <img src={yavazi} />
-               <p className='mp'>محمد یواضی</p>
+               <p className='mp'>محمد یوازی</p>
 
               
             </div>
